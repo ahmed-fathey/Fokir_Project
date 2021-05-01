@@ -300,12 +300,12 @@ color: #ff305b;
     transform: scaleY(1);
 }
 
-.about-area .profile-photo:hover .porfile-overlay {
-    /* display: block;
+/* .about-area .profile-photo:hover .porfile-overlay {
+    display: block;
     visibility: visible;
-    top: 0%; */
+    top: 0%;
 
-}
+} */
 .about-area .social-icon {
     left: 50%; 
     position: absolute;
@@ -519,3 +519,68 @@ color: #ff305b;
     }
     /* <!-- section(7)END --> */
         /* <!-- CONTACT US --> */
+
+
+/* Our Services */
+.section-title h2::before {
+    content: "";
+    border: 1px solid #ff305b;
+    width: 200px;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    transform: translate(-50%);
+    top: 105px;
+}
+
+.section-title h2::after {
+    content: "";
+    border: 1px solid #ff305b;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    border-left: none;
+    border-right: none;
+    transform: translate(-50%);
+    top: 100px;
+}
+
+.service-section
+{
+    background-color:#999 ;
+    align-items: center;
+    
+}
+
+
+
+
+/* portfolio */
+
+.portfolio-menu button
+{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 3px 12px;
+}
+
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.portfolio a
+{
+    display: block;
+    position: relative;
+}
+
+
+a
+{
+    transition: all 0.3s ease 0s;
+}
